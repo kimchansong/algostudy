@@ -1,6 +1,8 @@
+package SWEA;
+
 import java.util.Scanner;
 
-public class swac7829보물왕태혁 {
+public class 보물왕태혁_7829 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -12,8 +14,8 @@ public class swac7829보물왕태혁 {
 			if (P == 1) {
 				int val = sc.nextInt();
 				result = val * val;
-				
-			}else {
+
+			} else {
 				int min = 1000000001;
 				int max = 0;
 				for (int i = 0; i < P; i++) { // 약수 갯수만큼 입력
